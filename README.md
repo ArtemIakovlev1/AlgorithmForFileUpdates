@@ -1,7 +1,7 @@
 <h1>Algorithm for file updates</h1>
 
 <h2>Description</h2>
-I am a security professional working at a health care `company`. As part of my job, I am required to regularly update a file that identifies the employees who can access restricted content. The contents of the file are based on who is working with personal patient records. Employees are restricted access based on their IP address. There is an "allow_list.txt" file for IP addresses permitted to sign into the restricted subnetwork. There's also a `remove_list` that identifies which employees I must remove from this "allow_list.txt".
+I am a security professional working at a health care company. As part of my job, I am required to regularly update a file that identifies the employees who can access restricted content. The contents of the file are based on who is working with personal patient records. Employees are restricted access based on their IP address. There is an "allow_list.txt" file for IP addresses permitted to sign into the restricted subnetwork. There's also a `remove_list` that identifies which employees I must remove from this "allow_list.txt".
 My task is to create an algorithm that uses Python code to check whether the "allow_list.txt" contains any IP addresses identified on the `remove_list`. If so, I should remove those IP addresses from the file containing the "allow_list.txt".
 
 <h2>Languages</h2>
